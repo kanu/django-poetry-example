@@ -21,6 +21,10 @@ DJANGO_SETTINGS_MODULE = "django_poetry_example.project.settings"
 # set the django folder as pythonpath to solve import errors
 pythonpath = "django_poetry_example"
 
+[tool.poetry.scripts]
+server = "scripts:run_server"
+shell = "scripts:shell_plus"
+manage = "scripts:manage"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
