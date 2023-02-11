@@ -14,7 +14,7 @@ pytest-django = "^4.5.2"
 django-extensions = "^3.1.5"
 ipdb = "^0.13.9"
 black = "^22.3.0"
-ipython = "^8.4.0"
+ipython = "^8.10.0"
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "django_poetry_example.project.settings"
